@@ -1,0 +1,13 @@
+name: Deploy the new code
+
+on:
+  push:
+    branch:
+      - main:
+
+  jobs:
+    built and test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: checkout repo
+          uses: actions/checkout@v4
