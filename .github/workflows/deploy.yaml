@@ -6,7 +6,7 @@ on:
       - main:
 
 jobs:
-  built and test:
+  built-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
