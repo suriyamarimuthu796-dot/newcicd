@@ -1,7 +1,7 @@
 name: Deploy the new code
 
 on:
-  push:
+  workflow_dispatch:
     branch:
       - main:
 
