@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v4
-    deploy:
-      	runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy the code
         run: echo "Deploy the code"
