@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Deploy the code
-        run: echo "Deploy the code"
+        run: echo "Dep the code"
